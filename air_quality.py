@@ -97,6 +97,7 @@ def run_app():
         plt.xlabel('Date',fontsize=20)
         plt.ylabel('Nitrogen dioxide',fontsize=20)
         plt.legend(fontsize=19)
+        plt.grid()
         plt.xticks(fontsize=20)
         plt.yticks(fontsize=20)
         plt.show()
