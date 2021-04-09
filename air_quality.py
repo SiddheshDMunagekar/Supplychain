@@ -35,7 +35,7 @@ df=df.rename(columns={'CO(GT)':'Carbon_monoxide','PT08.S1(CO)':'Tin_oxide','NMHC
 
 
 def run_app():
-    image=Image.open('pol_air.JPG')
+    image=Image.open('Air_pol.JPG')
 
     st.image(image,use_column_width=True)
     no2=Image.open('no2.JPG')
