@@ -3,3 +3,4 @@ scikit-learn==0.23.2
 matplotlib==3.3.3
 numpy==1.19.5
 streamlit
+keras==2.4.3
