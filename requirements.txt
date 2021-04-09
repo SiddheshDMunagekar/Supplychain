@@ -4,3 +4,4 @@ matplotlib==3.3.3
 numpy
 streamlit
 keras==2.4.3
+statsmodels==0.12.2
