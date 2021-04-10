@@ -46,9 +46,9 @@ def run_app():
     train = df2[0:-30]
     test = df2[-30:]
 
-    add_selectbox = st.sidebar.selectbox("Forecasting Model", ("Simple Moving Average", "LSTM","Triple Exponential Smoothing","Seasonal ARIMA",
+    add_selectbox = st.sidebar.selectbox("Select Forecasting Model", ("Simple Moving Average", "LSTM","Triple Exponential Smoothing","Seasonal ARIMA",
                                                                "Gradient Boosting Regressor","ML Model Comparison Table"))
-    st.sidebar.info('This application focuses on forecasting Nitrogen dioxide concentration using differnt forecasting technique')
+    st.sidebar.info('This application focuses on forecasting Nitrogen dioxide concentration in air using multiple forecasting technique')
     st.sidebar.info('Supply chain Analytics Final Project DAB 400')
 
 
