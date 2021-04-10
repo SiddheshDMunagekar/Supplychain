@@ -49,7 +49,7 @@ def run_app():
     add_selectbox = st.sidebar.selectbox("Select Forecasting Model", ("Simple Moving Average", "LSTM","Triple Exponential Smoothing","Seasonal ARIMA",
                                                                "Gradient Boosting Regressor","ML Model Comparison Table"))
     st.sidebar.info('This application focuses on forecasting Nitrogen dioxide concentration in air using multiple forecasting technique')
-    st.sidebar.info('Supply chain Analytics Final Project DAB 400')
+    st.sidebar.info('Supply chain Analytics Final Project DAB 400 Group 10')
 
 
     if add_selectbox == 'Simple Moving Average':
