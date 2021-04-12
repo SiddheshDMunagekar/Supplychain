@@ -293,7 +293,7 @@ def run_app():
         
         plt.plot(train_plot)
         plt.plot(test_plot,color='green')
-        plt.plot(scalar.inverse_transform(data),color='red')
+        plt.plot(scalar.inverse_transform(data),color='orange')
         plt.title("Long Short Term Memory Network with train ,test and forecast", fontsize=20)
         plt.ylabel("Nitrogen_dioxide", fontsize=20)
         plt.legend(labels=['Train plot','Test set','LSTM forecast'],fontsize=19)
