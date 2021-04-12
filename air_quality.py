@@ -290,12 +290,13 @@ def run_app():
         test_plot[len(train_predict) + (time_step * 2) + 1:len(data) - 1, :] = test_predict
         # plot baseline and predictions
         plt.figure(figsize=(16, 8))
-        plt.plot(scalar.inverse_transform(data))
+        
         plt.plot(train_plot)
         plt.plot(test_plot)
-        plt.title("Long Short Term Memory Network", fontsize=20)
+        plt.plot(scalar.inverse_transform(data))
+        plt.title("Long Short Term Memory Network with train ,test and forecast", fontsize=20)
         plt.ylabel("Nitrogen_dioxide", fontsize=20)
-        plt.legend(fontsize=19)
+        plt.legend(labels=['Original plot','Test set','LSTM forecast'],fontsize=19)
         plt.xticks(fontsize=8)
         plt.yticks(fontsize=8)
         plt.grid()
