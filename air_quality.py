@@ -48,7 +48,7 @@ def run_app():
 
     add_selectbox = st.sidebar.selectbox("Select Forecasting Model", ("Simple Moving Average", "LSTM","Triple Exponential Smoothing","Seasonal ARIMA",
                                                                "Gradient Boosting Regressor","ML Model Comparison Table"))
-    st.sidebar.info('This application is developed by Siddhesh D. Munagekar to forecaste Nitrogen dioxide concentration in air using multiple forecasting technique')
+    st.sidebar.info('This application is developed by Siddhesh D. Munagekar to forecast Nitrogen dioxide concentration in air using multiple forecasting technique')
     
 
 
